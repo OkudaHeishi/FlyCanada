@@ -46,9 +46,9 @@ function Header(){
                     
                 ) : (
                     
-                    <div class="home-buttons">
-                        <a href='/registration'><button id="home-register-button"> REGISTER </button></a>
-                        <a href='/login'><button id="home-login-button"> LOGIN </button></a>
+                    <div className="home-buttons">
+                        <Link to='/registration'><button id="home-register-button"> REGISTER </button></Link>
+                        <Link to='/login'><button id="home-login-button"> LOGIN </button></Link>
                     </div>
                 
                 )}
