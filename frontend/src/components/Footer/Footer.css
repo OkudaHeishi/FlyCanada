@@ -1,4 +1,7 @@
 .footer {
+    width: 80%;
+    min-height: 100px;
+    margin: 0 auto;
     background-color: #204969;
     display: flex;
     justify-content: space-between;
@@ -30,6 +33,7 @@
     padding: 0;
     text-decoration: underline;
 }
+
 @media screen and (max-width: 840px) {
     .footer {
         text-align: center;
